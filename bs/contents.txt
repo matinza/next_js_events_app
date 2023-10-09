@@ -1,0 +1,16 @@
+
+⌨️ (0:00:00) Intro: Showcase App 
+⌨️ (0:02:07) Summary of the content of the video 
+⌨️ (0:02:40) Prerequisites for this video. 
+⌨️ (0:03:18) What is Next.js 
+⌨️ (0:04:38) Main Feature: Server-Side Rendering 
+⌨️ (0:09:03) Create a new Next.js Project 
+⌨️ (0:17:56) Analyse the Final App we are going to build 
+⌨️ (0:20:30) Next.js Files Structure 
+⌨️ (0:23:53) Next.js Pages & Build the pages 
+⌨️ (0:41:50) Data Fetching 
+⌨️ (2:02:15) Build the Components - UI (user Interface) 
+⌨️ (2:24:03) Add CSS - Styles   
+⌨️ (3:21:27) API Routing in Next.js 
+⌨️ (4:29:00) Deploy the APP in Vercel 
+⌨️ (4:43:06) Suggestions to improve the App 
