@@ -1,7 +1,7 @@
-const Page = () => {
+const EventsPage = ({title}) => {
   return (
     <>
-      <h1> Events Page </h1>
+      <h1> {title} </h1>
       <a href=''>
             <img />
             <h2> Events in London </h2> 
@@ -18,4 +18,12 @@ const Page = () => {
   );
 }
 
-export default Page;
+export default EventsPage;
+
+export function getServerSideProps() {
+  return {
+    props: {
+      title: 'Hello everyone!'
+    }
+  }
+}

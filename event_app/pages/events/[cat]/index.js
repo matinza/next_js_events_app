@@ -1,15 +1,43 @@
-const Page = () =>{
+import styles from '@/styles/Home.module.css'
+
+const EventsCatPage = () =>{
   return (
     <>
       <h1> Events in London </h1>
-      <a href='/events/event1'>Event 1</a>
-      <a href='/events/event2'>Event 2</a>
-      <a href='/events/event3'>Event 3</a>
-      <a href='/events/event4'>Event 4</a>
-      <a href='/events/event5'>Event 5</a>
-      <a href='/events/event6'>Event 6</a>
+      <div className={`${styles.header}`}>
+        <a href=''>
+          {' '}
+          Event 1
+          <img />
+        </a>
+        <a href=''>
+          {' '}
+          Event 2
+          <img />
+        </a>
+        <a href=''>
+          {' '}
+          Event 3
+          <img />
+        </a>
+        <a href=''>
+          {' '}
+          Event 4
+          <img />
+        </a>
+        <a href=''>
+          {' '}
+          Event 5
+          <img />
+        </a>
+        <a href=''>
+          {' '}
+          Event 6
+          <img />
+        </a>
+      </div>
     </>
   )
 }
 
-export default Page;
+export default EventsCatPage;
