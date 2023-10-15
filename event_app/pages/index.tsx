@@ -54,3 +54,15 @@ export default function Home() {
     </>
   )
 }
+
+// export async function getServerSideProps() {
+//   const data = import('../data/data.json');
+//   console.log(data);
+
+//   return {
+//     props: {
+//       title: 'Hello everyone!'
+//     }
+//   }
+  
+// }
